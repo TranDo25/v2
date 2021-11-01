@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+        <meta charset = "UTF8">
+        <meta name = "viewport" content = "width = device-width, initial-scale = 1.0">
+        <title>My web</title>
+        <link rel = "stylesheet" href = "./index.css">
+        <!--import jquery-->
+        <script src = "https://code.jquery.com/jquery-3.5.0.js"></script>
+    
+</head>
+<body>
+        <div class = "search-box">
+            <div class = "input-box">
+                <input type = "text"
+                    placeholder="search something...."
+                >
+            </div>
+            <div class = "search-button">
+                <img src = "./img/search.png" alt="">
+            </div>
+        <script>
+            $('.search-box .input-box input').focus(
+                ()=>{
+                    $('.search-box .input-box').addClass('active')
+                }
+            );
+            $('.search-box .input-box input').blur(
+                ()=>{
+                    $('.search-box .input-box').removeClass('active');
+                }
+            )
+        </script>
+        </div>
+</body>
+</html>
