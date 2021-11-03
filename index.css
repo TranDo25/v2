@@ -21,7 +21,7 @@ body, html{
 /*input setup*/
 .search-box .input-box {
     position:relative;
-    background: rgb(33, 82, 115);
+    background: rgb(255, 255, 255);
     padding: 10px;
     border-radius: 30px;
     width: 0;
@@ -36,24 +36,24 @@ body, html{
     padding-right: 50px;
     border: none;
     outline: none;
-    color: white;
+    color: rgb(94, 90, 90);
     font-size: 17px;
 }
 .search-box .input-box input::placeholder{
-    color: rgb(20, 19, 19);
+    color: rgb(165, 158, 158);
 } 
 /*Search-button*/
 .search-box .search-button{
     width: 40px;
     height: 40px;
     border-radius: 50%;
-    background: rgb(53, 157, 158);
+    background: rgb(233, 179, 147);
     display: flex;
     align-items: center;
     justify-content: center;
     position: absolute;
     right: 0px;
-    box-shadow: 0 0 0 8px rgb(40, 69, 158);
+    box-shadow: 0 0 0 8px rgb(241, 122, 122);
     cursor: pointer;
 }
 .search-box .search-button img{
